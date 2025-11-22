@@ -71,7 +71,7 @@ class MosquitoProblem(ThreeDScene):
 
         # 5. HUD TEXT (Fixed on screen)
         # We use add_fixed_in_frame_mobjects for explanatory text
-        title = Tex("Midterm Problem Visualization").to_corner(UL)
+        title = Tex("Midterm 2 Problem 2B Visualization").to_corner(UL)
         
         step1 = MathTex(r"\vec{v} \parallel \nabla f = \langle 8, -6, 0 \rangle").scale(0.7).to_corner(UR)
         step2 = MathTex(r"\text{Speed} = 5 \implies \vec{v} = \langle 4, -3, 0 \rangle").scale(0.7).next_to(step1, DOWN)
